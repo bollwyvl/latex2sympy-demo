@@ -1,0 +1,134 @@
+{
+  "antlr4-4.7-0.tar.bz2": {
+    "arch": "x86_64",
+    "build": "0",
+    "build_number": 0,
+    "depends": [
+      "openjdk"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "5648a5daddddfd6f26bde7ef5e866876",
+    "mtime": 1512366935.8067672,
+    "name": "antlr4",
+    "platform": "win",
+    "sig": null,
+    "size": 1894500,
+    "subdir": "win-64",
+    "version": "4.7"
+  },
+  "antlr4-python2-runtime-4.7-py27_0.tar.bz2": {
+    "arch": "x86_64",
+    "build": "py27_0",
+    "build_number": 0,
+    "depends": [
+      "python 2.7*"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "7da30b074d5399bf1768d09b8bfa1bb6",
+    "mtime": 1512366935.8013988,
+    "name": "antlr4-python2-runtime",
+    "platform": "win",
+    "sig": null,
+    "size": 157862,
+    "subdir": "win-64",
+    "version": "4.7"
+  },
+  "antlr4-python3-runtime-4.7-py35_0.tar.bz2": {
+    "arch": "x86_64",
+    "build": "py35_0",
+    "build_number": 0,
+    "depends": [
+      "python 3.5*"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "125f3a6d3db66335c133abbda43ae0ba",
+    "mtime": 1512366935.8021789,
+    "name": "antlr4-python3-runtime",
+    "platform": "win",
+    "sig": null,
+    "size": 164061,
+    "subdir": "win-64",
+    "version": "4.7"
+  },
+  "antlr4-python3-runtime-4.7-py36_0.tar.bz2": {
+    "arch": "x86_64",
+    "build": "py36_0",
+    "build_number": 0,
+    "depends": [
+      "python 3.6*"
+    ],
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "6ff08fd7f34ae4c297f058d4a8fc4012",
+    "mtime": 1512366935.8030665,
+    "name": "antlr4-python3-runtime",
+    "platform": "win",
+    "sig": null,
+    "size": 163866,
+    "subdir": "win-64",
+    "version": "4.7"
+  },
+  "latex2sympy-0.1.0-py27_0.tar.bz2": {
+    "arch": "x86_64",
+    "build": "py27_0",
+    "build_number": 0,
+    "depends": [
+      "antlr4-python2-runtime",
+      "python 2.7*",
+      "sympy"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "164bfec20d1997d50a6fa7f5a196e182",
+    "mtime": 1512366935.7998219,
+    "name": "latex2sympy",
+    "platform": "win",
+    "sig": null,
+    "size": 56508,
+    "subdir": "win-64",
+    "version": "0.1.0"
+  },
+  "latex2sympy-0.1.0-py35_0.tar.bz2": {
+    "arch": "x86_64",
+    "build": "py35_0",
+    "build_number": 0,
+    "depends": [
+      "antlr4-python3-runtime",
+      "python 3.5*",
+      "sympy"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "caa963f4c3aee53c05c0544a96690e9d",
+    "mtime": 1512366935.8005588,
+    "name": "latex2sympy",
+    "platform": "win",
+    "sig": null,
+    "size": 58777,
+    "subdir": "win-64",
+    "version": "0.1.0"
+  },
+  "latex2sympy-0.1.0-py36_0.tar.bz2": {
+    "arch": "x86_64",
+    "build": "py36_0",
+    "build_number": 0,
+    "depends": [
+      "antlr4-python3-runtime",
+      "python 3.6*",
+      "sympy"
+    ],
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "b7c167e7feebeeeaec8da71cf88a140c",
+    "mtime": 1512366935.807937,
+    "name": "latex2sympy",
+    "platform": "win",
+    "sig": null,
+    "size": 59066,
+    "subdir": "win-64",
+    "version": "0.1.0"
+  }
+}

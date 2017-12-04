@@ -1,0 +1,10 @@
+name: latex2sympy-demo
+
+channels:
+  - conda-forge
+  - ./conda.channel
+
+dependencies:
+  - latex2sympy
+  - jupyterlab
+  - matplotlib

@@ -1,0 +1,116 @@
+{
+  "info": {},
+  "packages": {
+    "antlr4-4.7-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "openjdk"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "03d02114ca07fc4602d7b71db7d6cd92",
+      "name": "antlr4",
+      "sig": null,
+      "size": 1891400,
+      "subdir": "linux-64",
+      "version": "4.7"
+    },
+    "antlr4-python2-runtime-4.7-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "bea38234b1e6f6b9f8360784a3281a37",
+      "name": "antlr4-python2-runtime",
+      "sig": null,
+      "size": 155034,
+      "subdir": "linux-64",
+      "version": "4.7"
+    },
+    "antlr4-python3-runtime-4.7-py35_0.tar.bz2": {
+      "build": "py35_0",
+      "build_number": 0,
+      "depends": [
+        "python 3.5*"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "87cf9b74af8826955a54358f3ae81b63",
+      "name": "antlr4-python3-runtime",
+      "sig": null,
+      "size": 161809,
+      "subdir": "linux-64",
+      "version": "4.7"
+    },
+    "antlr4-python3-runtime-4.7-py36_0.tar.bz2": {
+      "build": "py36_0",
+      "build_number": 0,
+      "depends": [
+        "python 3.6*"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "636143d420052e5d13824ae91d9b8eb4",
+      "name": "antlr4-python3-runtime",
+      "sig": null,
+      "size": 161537,
+      "subdir": "linux-64",
+      "version": "4.7"
+    },
+    "latex2sympy-0.1.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "depends": [
+        "antlr4-python2-runtime",
+        "python 2.7*",
+        "sympy"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "b4b9be52fef8088493e465d763982e89",
+      "name": "latex2sympy",
+      "sig": null,
+      "size": 54965,
+      "subdir": "linux-64",
+      "version": "0.1.0"
+    },
+    "latex2sympy-0.1.0-py35_0.tar.bz2": {
+      "build": "py35_0",
+      "build_number": 0,
+      "depends": [
+        "antlr4-python3-runtime",
+        "python 3.5*",
+        "sympy"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "cff1935d0ebe2cc60f0f7e2b6eccd3e2",
+      "name": "latex2sympy",
+      "sig": null,
+      "size": 57153,
+      "subdir": "linux-64",
+      "version": "0.1.0"
+    },
+    "latex2sympy-0.1.0-py36_0.tar.bz2": {
+      "build": "py36_0",
+      "build_number": 0,
+      "depends": [
+        "antlr4-python3-runtime",
+        "python 3.6*",
+        "sympy"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "d19e91362b5fe2f8732fb1c8f847df9f",
+      "name": "latex2sympy",
+      "sig": null,
+      "size": 57409,
+      "subdir": "linux-64",
+      "version": "0.1.0"
+    }
+  }
+}

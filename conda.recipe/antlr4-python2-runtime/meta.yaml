@@ -1,0 +1,42 @@
+{% set name = "antlr4-python2-runtime" %}
+{% set version = "4.7" %}
+{% set sha256 = "dc6bc369dd19f9c2e8926f594c4beadde19b3a3067a352ce959a443c0d7c5b2c" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 0
+  script: python setup.py install
+  skip: True  # [py3k]
+
+requirements:
+  build:
+    - python
+  run:
+    - python
+
+test:
+  imports:
+    - antlr4
+    - antlr4.atn
+    - antlr4.dfa
+    - antlr4.error
+    - antlr4.tree
+    - antlr4.xpath
+
+about:
+  home: http://www.antlr.org
+  license: BSD-3-Clause
+  license_family: BSD
+  summary: This is the Python 2.7 runtime for ANTLR.
+
+extra:
+  recipe-maintainers:
+    - bollwyvl
