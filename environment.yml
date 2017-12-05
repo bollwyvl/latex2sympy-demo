@@ -8,3 +8,5 @@ dependencies:
   - latex2sympy
   - jupyterlab
   - matplotlib
+  - pyquery
+  - requests
